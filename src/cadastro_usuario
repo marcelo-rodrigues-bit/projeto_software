@@ -1,0 +1,29 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <title>ProjectStockTrack - Entrar</title>
+        <meta charset="utf-8">
+    </head>
+
+        <h1>Entrar</h1>
+        <form action="entrar" method="POST">
+          <div class="form-pilha">
+            <label for="entrar-usuario">Usuário</label><br>
+            <input type="text" id="entrar-usuario" name="usuario" maxlength="50" required="">
+          </div>
+          <div class="form-pilha">
+            <label for="entrar-senha">Senha</label><br>
+            <input type="password" id="entrar-senha" name="senha" maxlength="50" required="">
+          </div>
+          <div class="form-pilha">
+            <label for="entrar-lembrar">Lembrar de Senha?</label>
+            <input type="checkbox" id="entrar-lembrar" name="lembrar" value="S">
+          </div>
+          <div class="botoes">
+            <button type="submit" class="botao botao-principal">Entrar</button> 
+          </div>
+        </form>
+
+</html>
