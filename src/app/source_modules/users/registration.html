@@ -3,14 +3,18 @@
 <html lang="en">
 
     <head>
-        <title>ProjectStockTrack - Entrar</title>
+        <title>ProjectStockTrack - Registrar</title>
         <meta charset="utf-8">
     </head>
 
-        <h1>Entrar</h1>
+        <h1>Registrar</h1>
         <form action="entrar" method="POST">
           <div class="form-pilha">
             <label for="entrar-usuario">Usuário</label><br>
+            <input type="text" id="entrar-usuario" name="usuario" maxlength="50" required="">
+          </div>
+          <div class="form-pilha">
+            <label for="entrar-usuario">Email</label><br>
             <input type="text" id="entrar-usuario" name="usuario" maxlength="50" required="">
           </div>
           <div class="form-pilha">
@@ -18,11 +22,11 @@
             <input type="password" id="entrar-senha" name="senha" maxlength="50" required="">
           </div>
           <div class="form-pilha">
-            <label for="entrar-lembrar">Lembrar de Senha?</label>
-            <input type="checkbox" id="entrar-lembrar" name="lembrar" value="S">
+            <label for="entrar-senha">Confirme a Senha</label><br>
+            <input type="password" id="entrar-senha" name="senha" maxlength="50" required="">
           </div>
           <div class="botoes">
-            <button type="submit" class="botao botao-principal">Entrar</button> 
+            <button type="submit" class="botao botao-principal">Cadastrar</button> 
           </div>
         </form>
 
