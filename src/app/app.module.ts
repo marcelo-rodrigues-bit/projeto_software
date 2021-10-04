@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { TarefasListaComponent } from './source_modules/product_screen/product_list/product-list.component';
 import { TarefasCadastroComponent } from './source_modules/product_screen/products/products.component';
+import { RegistrationComponent } from './registration/registration.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +16,8 @@ import { TarefasCadastroComponent } from './source_modules/product_screen/produc
     NavbarComponent,
     TarefasListaComponent,
     TarefasCadastroComponent,
+    RegistrationComponent,
+    UsersComponent,
   ],
   imports: [
     BrowserModule,
