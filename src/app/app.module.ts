@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { NavbarComponent } from'./shared/components/navbar/navbar.component';
 import { TarefasListaComponent } from './source_modules/product_screen/product_list/product-list.component';
 import { TarefasCadastroComponent } from './source_modules/product_screen/products/products.component';
-import { RegistrationComponent } from './registration/registration.component';
-import { UsersComponent } from './users/users.component';
+import { RegistrationComponent } from './source_modules/registration/registration.component';
+import { UsersComponent } from './source_modules/users/users.component';
 
 @NgModule({
   declarations: [
